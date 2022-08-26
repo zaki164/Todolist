@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkslategrey;
+  color: #fff;
+  font-size: 25px;
+}
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+.text-center {
+  text-align: center;
+}
+.listitems {
+  background-color: #fff;
+  color: chocolate;
+}
+.listitems .title {
+  background-color: chocolate;
+  color: #fff;
+}
+.listitems span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.listitems .name,
+form input[type= "text"] {
+  width: 60%;
+  padding: 15px;
+}
+.listitems .age,
+form input[type= "number"] {
+  width: 30%;
+  padding: 15px;
+}
+.listitems .action,
+form input[type= "submit"] {
+  width: 10%;
+  padding: 15px;
+}
+form input {
+  border: 1px solid #ccc;
+  background-color: #ddd;
+}
+.listitems .icon {
+  color: #f00;
+  cursor: pointer;
+}
+form input[type= "submit"] {
+  background-color: chocolate;
+  color: #fff;
+  cursor: pointer;
+}
